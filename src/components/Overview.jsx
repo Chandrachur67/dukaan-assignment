@@ -38,9 +38,9 @@ const Overview = () => {
                         </div>
 
                         <div className="amountMain">
-                            <h3>$ 2,312.33</h3>
+                            <h3 className="nowrap">$ 2,312.33</h3>
                             <div className="amountLink">
-                                <Link to="/" className='link'>23 orders</Link>
+                                <Link to="/" className='link nowrap'>23 orders</Link>
                                 <KeyboardArrowRightOutlinedIcon  style={{ color: "white" }}/>
                             </div>
                         </div>
@@ -58,9 +58,9 @@ const Overview = () => {
                         </div>
 
                         <div className="amountMain">
-                            <h3>$ 92,312.20</h3>
+                            <h3 className="nowrap">$ 92,312.20</h3>
                             <div className="amountLink">
-                                <Link to="/" className='link'>13 orders</Link>
+                                <Link to="/" className='link nowrap'>13 orders</Link>
                                 <KeyboardArrowRightOutlinedIcon style={{ color: "146EB4" }}/>
                             </div>
                         </div>
@@ -69,12 +69,12 @@ const Overview = () => {
                 <div className="paymentCard">
                     <div className="amount">
                         <div className="amountText">
-                            <p>Amount Processed</p>
+                            <p className="nowrap">Amount Processed</p>
                             <HelpOutlineOutlinedIcon  sstyle={{ width: "15px", color: "#4D4D4D" }}/>
                         </div>
 
                         <div className="amountMain">
-                            <h3>$ 23,92,312.19</h3>
+                            <h3 className="nowrap">$ 23,92,312.19</h3>
                         </div>
                     </div>
                 </div>
