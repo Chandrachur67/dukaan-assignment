@@ -3,6 +3,7 @@ import image from '../assets/image.png';
 import { Link } from "react-router-dom";
 import './Navbar.css'
 import Avatar from '@mui/material/Avatar';
+import KeyboardArrowDownOutlinedIcon from '@mui/icons-material/KeyboardArrowDownOutlined';
 import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import AssignmentOutlinedIcon from '@mui/icons-material/AssignmentOutlined';
 import WidgetsOutlinedIcon from '@mui/icons-material/WidgetsOutlined';
@@ -36,7 +37,7 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className="dropDown">
-                    <HomeOutlinedIcon />
+                    <KeyboardArrowDownOutlinedIcon />
                 </div>
             </div>
 
