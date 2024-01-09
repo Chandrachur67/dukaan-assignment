@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import image from '../assets/image.png';
+import Image from '../assets/Image.png';
 import { Link } from "react-router-dom";
 import './Navbar.css'
 import Avatar from '@mui/material/Avatar';
@@ -30,7 +30,7 @@ const Navbar = () => {
         <div className="top">
             <div className="userDetails">
                 <div className='details'>
-                    <Avatar src={image} style={{ borderRadius: "4px" }} />
+                    <Avatar src={Image} style={{ borderRadius: "4px" }} />
                     <div className="nameAndLink">
                         <p className="name">Nishayan</p>
                         <Link to='/' className='link'>Visit Store</Link>
