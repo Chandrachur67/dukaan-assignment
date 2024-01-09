@@ -1,0 +1,144 @@
+.navbar {
+    padding: 16px 10px 16px 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #1E2640;
+    color: white;
+    position: relative;
+}
+
+.navbar .top {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    width: 100%;
+}
+
+.userDetails {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    gap: 10px;
+    padding: 0 8px;
+}
+
+.userDetails .details {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    height: 39px;
+}
+
+.userDetails .dropDown:hover {
+    cursor: pointer;
+}
+
+.userDetails .nameAndLink {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.userDetails .name {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.userDetails .link {
+    font-family: Galano Grotesque;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffffb4;
+}
+
+.navbar .options {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    width: 100%;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.navbar .option {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    padding: 8px 16px;
+    border-radius: 4px;
+    color: #ffffffb4;
+}
+
+.navbar .option:hover, .selected {
+    background-color: #FFFFFF1A;
+    color: white;
+}
+
+.navbar .option:hover {
+    cursor: pointer;
+}
+
+.navbar .bottom {
+    margin-bottom: 0;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    background-color: #353C53;
+    position: sticky;
+    bottom: 10px;
+}
+
+.navbar .bottom:hover {
+    cursor: pointer;
+}
+
+.navbar .bottom .text {
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffffb4;
+}
+
+.navbar .bottom .amount {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.navbar .bottom .icon {
+    background-color: #FFFFFF1A;
+    /* width: 24px;
+    height: 24px; */
+    border-radius: 4px;
+    padding: 6px;
+}

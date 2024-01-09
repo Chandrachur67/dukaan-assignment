@@ -1,0 +1,308 @@
+.overview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    gap: 24px;
+    background-color: rgba(244, 244, 244, 0.507);
+}
+
+.overview .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 36px;
+    /* border: 2px solid black; */
+}
+
+.overview .top h3 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.overview .top select {
+    font-family: Inter;
+    font-weight: 400;
+    height: 100%;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+    padding: 0 10px;
+    margin: 0 10px;
+}
+
+.overview .middle {
+    display: flex;
+    width: 100%;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.overview .middle .paymentCard {
+    /* padding: 20px; */
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+    width: 100%;
+    box-shadow: 1px 1px 5px rgb(230, 230, 230);
+}
+
+.overview .middle .selected {
+    background-color: #146EB4;
+    color: white;
+    /* padding: 20px 20px 0 20px; */
+}
+
+.overview .middle .paymentCard .amount {
+    width: 100%;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.overview .middle .paymentCard .amount .amountText {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 6px;
+    color: #4D4D4D;
+}
+
+.overview .middle .selected .amount .amountText {
+    color: white;
+}
+
+.overview .middle .paymentCard .amount .amountMain {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.amountMain h3 {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.amountLink {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #4D4D4D;
+}
+
+.amountLink .link {
+    color: #146EB4;
+}
+
+.selected .amountLink .link {
+    color: white;
+}
+
+.overview .middle .paymentCard .nextPayoutDate {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0E4F82;
+    padding: 8px 24px;
+    margin-top: -16px;
+    border-radius: 10px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+
+.overview .bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    width: 100%;
+    margin-top: 10px;
+    color: black;
+}
+
+.overview .bottom .text {
+    display: flex;
+    width: 100%;
+}
+
+.overview .bottom h3 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.overview .bottom .options {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+}
+
+.overview .bottom .option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E6E6E6;
+    color: #808080;
+
+    padding: 6px 16px;
+    border-radius: 40px;
+}
+
+.overview .bottom .selected {
+    background-color: #146EB4;
+    color: white;
+    padding: 6px 16px;
+    border-radius: 40px;
+}
+
+
+.transactionSection {
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    gap: 20px;
+    padding: 12px 12px 8px 12px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.searchBar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.searchBar input {
+    height: 100%;
+    width: 40%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding-left: 40px;
+}
+
+.searchIcon {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+}
+
+.right {
+    display: flex;
+    height: 100%;
+    gap: 10px;
+}
+
+.sort,
+.download {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    color: #5e5e5e;
+    height: 100%;
+    padding: 6px 12px;
+    border-radius: 2px;
+    border: 1px solid #D9D9D9;
+}
+
+.transactions {
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+
+.attributeName {
+    text-align: left;
+}
+
+.transaction {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    color: #4D4D4D;
+    font-family: Galano Grotesque;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+.transactionHeader {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    color: #4D4D4D;
+    border-bottom: 0;
+    border-radius: 4px;
+}
+
+.transaction .orderId {
+    color: #146EB4;
+}
+
+.transaction .orderId:hover {
+    cursor: pointer;
+}
+
+.transaction .status {
+    color: #1A181E;
+}
+
+.transaction:last-child {
+    border-bottom: 0;
+}
+
+.transaction div:last-child {
+    text-align: right;
+}

@@ -1,0 +1,16 @@
+.payments {
+    display: grid;
+    grid-template-columns: 224px 1fr;
+    min-width: 100dvw;
+    min-height: 100dvh;
+}
+
+@media (max-width: 767px) {
+    .payments {
+        grid-template-columns: 1fr; /* Use a single column when screen width is 767px or less */
+    }
+
+    .navbar {
+        display: none; /* Hide the Navbar when screen width is 767px or less */
+    }
+}
